@@ -1,0 +1,7 @@
+crazygl-hero[data-crazygl="dynamic-fill-nav"] crazygl-content { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 24px; }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-nav { display: flex; flex-direction: column; gap: 8px; max-width: 720px; width: 100%; }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-a { position: relative; display: block; padding: 14px 24px; text-decoration: none; line-height: 1.1; letter-spacing: -0.02em; overflow: hidden; border-radius: 14px; }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-fill { position: absolute; inset: 0; background: var(--cgl-dfn-fill, #5b8def); transform: scaleX(0); transform-origin: left; transition: transform 400ms cubic-bezier(0.22, 1, 0.36, 1); }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-label { position: relative; display: block; transition: color 400ms; }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-a.is-active .crazygl-dfn-fill { transform: scaleX(1); }
+crazygl-hero[data-crazygl="dynamic-fill-nav"] .crazygl-dfn-a.is-active .crazygl-dfn-label { color: var(--cgl-dfn-fill-text, #fff); }

@@ -1,0 +1,122 @@
+{
+	"name": "Dynamic Fill Nav",
+	"slug": "dynamic-fill-nav",
+	"version": 1,
+	"description": "A nav bar where each link reveals a coloured fill on hover \u2014 left-to-right wipe behind a flat-coloured label.",
+	"dependencies": [],
+	"authorName": "@ybouane",
+	"authorUrl": "https://x.com/ybouane",
+	"tags": [
+		"nav",
+		"fill",
+		"typography"
+	],
+	"category": "Typography",
+	"featured": false,
+	"dateCreated": 1781222400000,
+	"poster": "/images/heroes/dynamic-fill-nav.png",
+	"install": {
+		"package": "@crazygl/hero-dynamic-fill-nav"
+	},
+	"config": {
+		"managedWidth": true,
+		"innerWidth": 1200,
+		"managedHeight": true,
+		"defaultHeight": 720,
+		"styleInheritance": "none",
+		"usesCanvas": false,
+		"usesWebGL": false,
+		"usesThree": false,
+		"pointerTracking": false,
+		"resizeTracking": true,
+		"scrollTracking": false,
+		"supportsImages": false,
+		"supportsTransparency": true,
+		"interactive": true,
+		"supportsFontCustomization": true,
+		"interactivityModes": [
+			"pointer"
+		],
+		"interactivity": "pointer"
+	},
+	"customizer": {
+		"sections": [
+			{
+				"label": "Links",
+				"fields": [
+					{
+						"id": "items",
+						"label": "Items (label | href per line)",
+						"type": "textarea",
+						"default": "Work | /work\nProcess | /process\nClients | /clients\nNotes | /notes\nContact | /contact"
+					}
+				]
+			},
+			{
+				"label": "Style",
+				"fields": [
+					{
+						"id": "textColor",
+						"label": "Text colour",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "fillColor",
+						"label": "Fill colour",
+						"type": "color",
+						"default": "#5b8def"
+					},
+					{
+						"id": "fillTextColor",
+						"label": "Hover text",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "fontSize",
+						"label": "Font size (px)",
+						"type": "slider",
+						"default": 48,
+						"min": 18,
+						"max": 110,
+						"step": 1,
+						"unit": "px"
+					},
+					{
+						"id": "headingFontFamily",
+						"label": "Font",
+						"type": "font",
+						"default": "Inter"
+					},
+					{
+						"id": "headingFontWeight",
+						"label": "Weight",
+						"type": "slider",
+						"default": 700,
+						"min": 100,
+						"max": 900,
+						"step": 100
+					}
+				]
+			},
+			{
+				"label": "Backdrop",
+				"fields": [
+					{
+						"id": "transparentBackground",
+						"label": "Transparent background",
+						"type": "toggle",
+						"default": false
+					},
+					{
+						"id": "bgColor",
+						"label": "Background",
+						"type": "color",
+						"default": "#0a0c14"
+					}
+				]
+			}
+		]
+	}
+}
