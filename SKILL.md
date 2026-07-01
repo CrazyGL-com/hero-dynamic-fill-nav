@@ -3,7 +3,7 @@ name: dynamic-fill-nav
 description: "A nav bar where each link reveals a coloured fill on hover — left-to-right wipe behind a flat-coloured label."
 metadata:
   author: "@ybouane"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 ## How To Use This Skill
